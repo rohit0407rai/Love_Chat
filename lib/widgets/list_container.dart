@@ -24,7 +24,7 @@ class ListContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(22.0),
+      padding: const EdgeInsets.symmetric(horizontal: 22.0,vertical: 5),
       child: Container(
         child: Row(
           children: [
