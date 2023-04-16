@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
                         width: 140,
                       ),
                       Padding(padding: EdgeInsets.symmetric(horizontal: 22),
-                      child:Divider(thickness: 0.1,color: Colors.black,)
+                      child:Divider(thickness: 0.03,color: Colors.black,)
                       ),
                       ListContainer(
                         imageAsset: 'assets/images/Tom.png',
@@ -111,7 +111,7 @@ class HomePage extends StatelessWidget {
                         width: 160,
                       ),
                       Padding(padding: EdgeInsets.symmetric(horizontal: 22),
-                          child:Divider(thickness: 0.05,color: Colors.black,)
+                          child:Divider(thickness: 0.03,color: Colors.black,)
                       ),
                       ListContainer(
                           imageAsset: 'assets/images/James.png',
@@ -122,7 +122,7 @@ class HomePage extends StatelessWidget {
                           color: Color(0xffFF5F8F),
                           width: 155),
                       Padding(padding: EdgeInsets.symmetric(horizontal: 22),
-                          child:Divider(thickness: 0.05,color: Colors.black,)
+                          child:Divider(thickness: 0.03,color: Colors.black,)
                       ),
                     ],
                   )),
