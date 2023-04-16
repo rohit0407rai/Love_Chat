@@ -140,8 +140,11 @@ class HomePage extends StatelessWidget {
           height: 70,
           decoration: const BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(30), topRight: Radius.circular(30))),
+            border: Border(
+              top: BorderSide(width: 0.1,color: Colors.grey,)
+            )
+
+          ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
